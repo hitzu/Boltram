@@ -1,0 +1,107 @@
+/*Empieza seccion del menú*/
+.navbar
+{
+	margin-bottom: 0;
+}
+
+.navbar-custom {
+    background-color:#428BCA;
+    color:#000000;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+	background-color: #77B2F2;
+    color:#fff;
+}
+
+.navbar-custom .navbar-nav > li > a:focus {
+	background-color: #77B2F2;
+    color:#fff;
+}
+
+.navbar-custom .navbar-brand {
+    color:#fff;
+}
+
+.navbar-toggle{
+    background-color: #77B2F2;
+}
+
+.navbar-toggle span{
+    background-color: #fff;
+}
+/*Termina seccion menú*/
+
+
+/*Empieza seccion del background index*/
+.fondo_principal
+{
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+    text-align: center;
+}
+
+.fondo_principal h1
+{
+    color: #fff;
+    padding-top: 5%;
+}
+
+
+
+/*Termina seccion background index*/
+
+
+
+.seccion-servicios
+{
+    padding-top: 5%;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+    text-align: center;
+}
+
+#trabajo::-webkit-input-placeholder 
+{
+    color: #000;
+    font-weight: bold;
+}
+
+#lugar::-webkit-input-placeholder 
+{
+    color: #000;
+    font-weight: bold;
+}
+
+.footer-custom
+{
+    background-color:#000;  
+}
+
+.footer-custom a
+{
+    color: #fff;
+}
+
+.footer-custom p
+{
+    padding-top: 10px;
+    color: #fff;
+}
